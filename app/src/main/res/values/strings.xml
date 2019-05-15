@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">地图百科</string>
+
+    <string name="global">点击进入全球定位系统</string>
+</resources>

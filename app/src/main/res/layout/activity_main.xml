@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/hongqi"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/dingwei"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/heise"
+        android:textSize="18sp"
+        android:background="@color/anniu"
+        android:text="@string/global"/>
+
+    <com.noteam.chinamapview.HVScaleScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:id="@+id/rl_map"
+            android:layout_width="3000px"
+            android:layout_height="3000px"
+            >
+
+            <com.noteam.chinamapview.ChinaMapView
+                android:id="@+id/mapView"
+                android:layout_width="1450px"
+                android:layout_height="1200px"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+
+    </com.noteam.chinamapview.HVScaleScrollView>
+</LinearLayout>
